@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+<body>
+    <form action="result.html">
+     <div>
+         <label for="cars">Choose a car:</label><br>
+         <select name="cars-select" id="cars" size="8" multiple required>
+         <optgroup label="Expensive Cars">
+            <option value="porche">Porche</option>
+            <option value="massarati">Massareti</option>
+         </optgroup>
+         <optgroup label="Tüplü Öfkeli">
+         <option value="kartal-88">Kartal-88</option>
+         <option value="lada">Lada-samara</option>
+         <option value="murat">Murat-131</option>
+        </optgroup>
+        </select>
+     </div>
+     <div>
+         <label for="message">Enter your comment here:</label>
+         <br>
+         <textarea name="comment" id="message" style="resize: none;" cols="30" rows="10" maxlength="9">
+         
+
+
+
+
+         </textarea>
+         <br><br>
+    <div>
+        <label for="mybrowser">Browser:</label>
+        <br>
+        <input type="text" name="browser-option" id="mybrowser" list="browsers">
+       <datalist id="browsers">
+           <option value="Chrome"></option>
+           <option value="Safari"></option>
+           <option value="Brave"></option>
+           <option value="Mozilla"></option>
+           <option value="Opera"></option>
+           <option value="IE-10"></option>
+           <option value="IE-12"></option>
+       </datalist>
+    </div>
+
+     </div>
+
+        <br><br>
+        <fieldset style="width: 50%;">
+            <legend>Personal İnfo</legend>
+            <label for="firstname">First Name</label>
+            <input type="text" name="name" id="firstname" placeholder="merve"><br><br>
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" placeholder="kaya">
+        </fieldset>
+        <br><br>
+        <input type="submit" value="SEND">
+
+
+
+
+    </form>
+</body>
+</html>
